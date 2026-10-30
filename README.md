@@ -26,7 +26,7 @@ You need MySQL installed. Then:
 ```bash
 git clone https://github.com/aryanbhardwaj-tech/movie-booking-sql-analysis.git
 cd movie-booking-sql-analysis
-mysql -u root -p < sql/movie_booking_db.sql
+mysql -u root -p < movie_booking_db.sql
 ```
 
 Or just open `sql/movie_booking_db.sql` in MySQL Workbench and run it. It creates the database `movie_booking_db`, the tables, and inserts all the data.
